@@ -1,0 +1,39 @@
+<!DOCTYPE html><html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>minsweeper</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+ <h1 id = "victory">minsweeper</h1>
+    <h3><time>00:00:00</time></h3>
+<h4 id="bombsTest"></h4>
+
+    
+<form>
+
+    <input id="heightBox" type="number" placeholder="Height..." min="1" max="16">
+ 
+    <input id="widthBox" type="number" placeholder="Width..." min="1" max="32" width="100">
+    
+    <button>Go</button>
+  
+</form>
+    
+    
+    <button id = "reload" onclick="window.location.reload()">Reload</button>
+
+    <canvas width=400 height=400 id="canvas"></canvas>
+
+ 
+
+    
+    
+    
+
+    
+  <script src="script.js"></script>
+</body>
+</html>

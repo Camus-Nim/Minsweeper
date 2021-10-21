@@ -1,0 +1,55 @@
+
+
+canvas {
+border: 1px solid black;
+}
+
+#widthBox, #heightBox {
+    width: 100px;
+}
+
+
+
+#reload {
+    border: 1px solid black;
+    height: 40px;
+    width: 80px;
+    display: inline-block;
+    background-color: beige;
+    font-size: 10px;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    bottom: 400px;
+    left: 1000px;
+}
+
+#height {
+     border: 1px solid black;
+    height: 60px;
+    width: 200px;
+    display: inline-block;
+   
+    font-size: 17px;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    bottom: 400px;
+    left: 600px;
+    
+}
+
+#width {
+     border: 1px solid black;
+    height: 60px;
+    width: 200px;
+    display: inline-block;
+   
+    font-size: 17px;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    bottom: 400px;
+    left: 300px;
+    
+}
